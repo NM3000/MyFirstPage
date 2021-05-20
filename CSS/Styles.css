@@ -2,7 +2,7 @@ body {
    background-color: #325288;
 }
 
-html,body {
+p {
   -text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
