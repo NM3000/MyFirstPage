@@ -1,0 +1,28 @@
+body {
+   background-color: #325288;
+}
+
+h3 {
+  background-color: none;
+ color:#a4ebf3;
+}
+
+p {
+
+color: #f4eee8;
+}
+
+td {
+  color: #a4ebf3;
+}
+hr {
+  background-color: none;
+  border-style: dotted none none;
+  height: 0px;
+  width: 5%;
+  border-color: gray;
+  border-width: 5px;
+}
+img {
+  height:150px;
+}
