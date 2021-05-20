@@ -26,3 +26,69 @@ hr {
 img {
   height:150px;
 }
+/************** TAG SELECTORS ********************/
+
+body {
+   background-color: #325288;
+}
+
+h3 {
+  background-color: none;
+ color:#a4ebf3;
+}
+
+p {
+
+color: #f4eee8;
+}
+
+td {
+  color: #a4ebf3;
+}
+hr {
+  background-color: none;
+  border-style: dotted none none;
+  height: 0px;
+  width: 5%;
+  border-color: gray;
+  border-width: 5px;
+}
+img {
+  height:150px;
+}
+
+/**************************** CLASS TAGS *******************************/
+
+/* ASÍ SE HACE UN OVERLAY DE UNA IMAGEN A OTRA */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: WHITE;
+  border-radius: 100%;
+}
+.text {
+  color: Blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
