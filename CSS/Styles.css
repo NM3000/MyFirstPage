@@ -9,7 +9,7 @@ body {
 h1 {
   margin-top: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 3rem
+  font-size: 1.75rem
 }
 
 p {
@@ -20,22 +20,22 @@ p {
 
 /* TOP CONTAINER*/
 .topcontainer {
-  height: 150px;
+  height: 9.375rem;
   background-color: #faf3f3;
   position: fixed;
 }
 
 .topimg {
   position: relative;
-  margin-left: 650px;
+  margin-left: 40.625rem;
   width: 45%;
 }
 
 .topmenu {
   position: relative;
-  height: 35px;
+  height: 2.1875rem;
   background-color: grey;
-  margin-top: -25px;
+  margin-top: -1.5625rem;
 }
 
 .menutable {
@@ -44,14 +44,14 @@ p {
 
 /*MENU CONTENT */
 .midtex {
-  margin-left: 300px;
+  margin-left: 18.75rem;
   position: absolute;
   text-align: justify;
 }
 
 .QS {
   position: absolute;
-  margin-left: 175px;
+  margin-left: 10.9375em;
 }
 .QS:hover {
   color: black;
@@ -59,7 +59,7 @@ p {
 
 .MS {
   position: absolute;
-  margin-left: 425px;
+  margin-left: 26.5625rem;
 }
 
 .MS:hover {
@@ -68,7 +68,7 @@ p {
 
 .TT {
   position: absolute;
-  margin-left: 675px;
+  margin-left: 42.1875rem;
 }
 
 .TT:hover {
@@ -77,7 +77,7 @@ p {
 
 .DZ {
   position: absolute;
-  margin-left: 925px;
+  margin-left: 57.8125em;
 }
 
 .DZ:hover {
@@ -85,7 +85,7 @@ p {
 }
 .DS {
   position: absolute;
-  margin-left: 1175px;
+  margin-left: 73.4375rem;
 }
 
 .DS:hover {
@@ -95,7 +95,7 @@ p {
 /* MEDIUM CONTAINER */
 .midcontainer {
   background-color: #a7bbc7;
-  padding-top: 200px;
+  padding-top: 12.5rem;
 }
 
 .out {
@@ -117,34 +117,33 @@ p {
 .txtcol1 {
   width: 35%;
   text-align: justify;
-  margin: auto;
-  padding-left: 25%;
+  margin-left: 45rem;
 }
 
 .txtcol2 {
   width: 35%;
   text-align: justify;
-  margin-left: 225px;
+  margin-left: 14.0625rem;
 }
 
 .txtcol3 {
   width: 25%;
   text-align: justify;
-  margin-left: 1050px;
+  margin-left: 65.625rem;
 }
 
 .midimg01 {
   width: 25%;
   float: left;
-  margin-left: 225px;
-  padding-top: 50px;
+  margin-left: 14.0625rem;
+  padding-top: 3.125rem;
 }
 
 .midimg02 {
   width: 25%;
   float: right;
-  margin-right: 225px;
-  padding-top: 50px;
+  margin-right: 16.5rem;
+  padding-top: 3.125rem;
 }
 
 .cloud2 {
@@ -156,7 +155,7 @@ p {
 /* LOW CONTAINER */
 .lowcontainer {
   background-color: #da7f8f;
-  height: 100px;
+  height: 6.25rem;
   width: auto;
   color: white;
 }
