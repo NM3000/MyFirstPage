@@ -1,0 +1,162 @@
+body {
+  background-color: #a7bbc7;
+  margin: 0;
+  /* PARA ACOMODAR LOS MARGENES A 0 SE DEBE HACER EN ESTE SITIO */
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+  justify-content: flex-end;
+}
+
+/* TOP CONTAINER*/
+.topcontainer {
+  height: 150px;
+  background-color: #faf3f3;
+  position: fixed;
+}
+
+.topimg {
+  position: relative;
+  margin-left: 650px;
+  width: 45%;
+}
+
+.topmenu {
+  position: relative;
+  height: 35px;
+  background-color: grey;
+  margin-top: -25px;
+}
+
+.menutable {
+  color: white;
+}
+
+/*MENU CONTENT */
+.midtex {
+  margin-left: 300px;
+  position: absolute;
+  text-align: justify;
+}
+
+.QS {
+  position: absolute;
+  margin-left: 175px;
+}
+.QS:hover {
+  color: black;
+}
+
+.MS {
+  position: absolute;
+  margin-left: 425px;
+}
+
+.MS:hover {
+  color: black;
+}
+
+.TT {
+  position: absolute;
+  margin-left: 675px;
+}
+
+.TT:hover {
+  color: black;
+}
+
+.DZ {
+  position: absolute;
+  margin-left: 925px;
+}
+
+.DZ:hover {
+  color: black;
+}
+.DS {
+  position: absolute;
+  margin-left: 1175px;
+}
+
+.DS:hover {
+  color: black;
+}
+
+/* MEDIUM CONTAINER */
+.midcontainer {
+  background-color: #a7bbc7;
+  padding-top: 200px;
+}
+
+.out {
+  text-decoration: underline;
+  color: white;
+  background-color: purple;
+}
+
+.cloud1 {
+  display: inline-block;
+  position: relative;
+}
+
+/* TABLE COLUMNS */
+.tit01 {
+  text-align: right;
+  color: cyan;
+}
+.txtcol1 {
+  width: 35%;
+  text-align: justify;
+  margin: auto;
+  padding-left: 25%;
+}
+
+.txtcol2 {
+  width: 35%;
+  text-align: justify;
+  margin-left: 225px;
+}
+
+.txtcol3 {
+  width: 25%;
+  text-align: justify;
+  margin-left: 1050px;
+}
+
+.midimg01 {
+  width: 25%;
+  float: left;
+  margin-left: 225px;
+  padding-top: 50px;
+}
+
+.midimg02 {
+  width: 25%;
+  float: right;
+  margin-right: 225px;
+  padding-top: 50px;
+}
+
+.cloud2 {
+  display: inline-block;
+  position: relative;
+  right: 150px;
+}
+
+/* LOW CONTAINER */
+.lowcontainer {
+  background-color: #da7f8f;
+  height: 100px;
+  width: auto;
+  color: white;
+}
