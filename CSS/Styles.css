@@ -21,6 +21,7 @@ p {
 /* TOP CONTAINER*/
 .topcontainer {
   height: 9.375rem;
+  width: auto;
   background-color: #faf3f3;
   position: fixed;
 }
@@ -28,12 +29,14 @@ p {
 .topimg {
   position: relative;
   margin-left: 40.625rem;
-  width: 45%;
+  max-width: 45%
+
 }
 
 .topmenu {
   position: relative;
   height: 2.1875rem;
+  width: auto;
   background-color: grey;
   margin-top: -1.5625rem;
 }
