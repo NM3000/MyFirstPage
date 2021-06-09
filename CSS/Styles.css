@@ -28,8 +28,8 @@ p {
 
 .topimg {
   position: relative;
-  margin-left: 52rem;
-  max-width: 40.5rem;
+  margin-left: 40.625rem;
+  max-width: 45%
 
 }
 
@@ -38,7 +38,7 @@ p {
   height: 2.1875rem;
   width: auto;
   background-color: grey;
-  margin-top: -1.5625rem;
+  margin:auto;
 }
 
 .menutable {
