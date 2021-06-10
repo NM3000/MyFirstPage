@@ -35,7 +35,7 @@ p {
   position: relative;
   margin-left: 40.625rem;
   max-width: 45%
-
+  padding-top: 1.25rem;
 }
 
 .topmenu {
