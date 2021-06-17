@@ -23,10 +23,10 @@ p {
   justify-content: flex-end;
 }
 
-/* TOP CONTAINER*/
+/* TOP CONTAINER*/ 
 .topcontainer {
   height: 9.375rem;
-  width: auto;
+  width: 80%;
   background-color: #faf3f3;
   position: fixed;
 }
