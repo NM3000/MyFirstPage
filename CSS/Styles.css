@@ -26,14 +26,14 @@ p {
 /* TOP CONTAINER*/ 
 .topcontainer {
   height: 9.375rem;
-  width: 45%;
+  width: 100%;
   background-color: #faf3f3;
   position: fixed;
 }
 
 .topimg {
   position: relative;
-  margin-left: 40.625rem;
+  margin-left: 0rem;
   max-width: 45%; 
   padding-top: 1.25rem;
 }
