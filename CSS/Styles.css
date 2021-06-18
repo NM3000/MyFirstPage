@@ -2,15 +2,13 @@ body {
   background-color: #a7bbc7;
   margin: 0;
   /* PARA ACOMODAR LOS MARGENES A 0 SE DEBE HACER EN ESTE SITIO */
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
   text-decoration: none;
   color:inherit;
 }
-
 h1 {
   margin-top: 0;
   font-family: 'Roboto', sans-serif;
@@ -23,24 +21,26 @@ p {
   justify-content: flex-end;
 }
 
-/* TOP CONTAINER*/ 
+/* TOP CONTAINER*/
 .topcontainer {
-  height: 9.375rem;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-color: #faf3f3;
   position: fixed;
 }
 
 .topimg {
   position: relative;
-  margin-left: 0rem;
-  max-width: 45%; 
-  padding-top: 1.25rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 100%
+
 }
 
 .topmenu {
   position: relative;
-  height: 2.1875rem;
+  height: auto;
   width: auto;
   background-color: grey;
   margin:auto;
@@ -123,9 +123,10 @@ p {
   color: cyan;
 }
 .txtcol1 {
-  width: 35%;
+  width: 100%;
   text-align: justify;
-  margin-left: 45rem;
+  margin-left: 5rem;
+  padding-top: 5rem;
 }
 
 .txtcol2 {
@@ -142,9 +143,9 @@ p {
 
 .midimg01 {
   width: 25%;
-  float: left;
+  float: none;
   margin-left: 14.0625rem;
-  padding-top: 3.125rem;
+  padding-top: 5rem;
 }
 
 .midimg02 {
